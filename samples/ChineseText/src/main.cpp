@@ -140,12 +140,16 @@ void setup()
 void loop()
 {
 
+
   u8g2Fonts.setForegroundColor(dma_display->color565(random(256), random(256), random(256)));
-  u8g2Fonts.drawUTF8(0,16,"你好，");
-  u8g2Fonts.setForegroundColor(dma_display->color565(random(256), random(256), random(256)));
-  u8g2Fonts.drawUTF8(0,32,"世界！");
+  int16_t s= u8g2Fonts.getUTF8Width("你好，世界！");
+  for (size_t i = 0; i < s; i++)
+  {
+    u8g2Fonts.drawUTF8(-i,32,"你好，世界！");
+    delay(50);
+    dma_display->clearScreen();
+  }
   delay(2000);
-  dma_display->clearScreen();
 
 
 }
