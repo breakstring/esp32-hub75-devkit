@@ -2023,7 +2023,7 @@ function initDefaults() {
   settings.checkboxes = bomCheckboxes.split(",").filter((e) => e);
   document.getElementById("bomCheckboxes").value = bomCheckboxes;
 
-  settings.darkenWhenChecked = readStorage("darkenWhenChecked") || "";
+  settings.darkenWhenChecked = readStorage("darkenWhenChecked") || true;
   populateDarkenWhenCheckedOptions();
 
   function initBooleanSetting(storageString, def, elementId, func) {    
