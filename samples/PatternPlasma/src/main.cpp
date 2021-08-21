@@ -26,11 +26,11 @@
 #define LAT_PIN 4
 #define OE_PIN 22
 #define CLK_PIN 16
-#define E_PIN 12 // set to 12 for Hub75E
+#define E_PIN -1 // set to 12 for Hub75E，-1 for normal Hub75
 
 /********** CONFIG *************/
 #define PANEL_WIDTH 64
-#define PANEL_HEIGHT 64   	// Panel height of 64 will required PIN_E to be defined.
+#define PANEL_HEIGHT 32   	// Panel height of 64 will required PIN_E to be defined.
 #define PANELS_NUMBER 1 	// Number of chained panels, if just a single panel, obviously set to 1
 
 
