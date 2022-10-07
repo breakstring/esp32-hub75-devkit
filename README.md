@@ -67,13 +67,4 @@
 - [Arduino IDE和PlatformIO IDE的选择](https://github.com/breakstring/esp32-hub75-devkit/wiki/Arduino-IDE%E5%92%8CPlatformIO-IDE%E7%9A%84%E9%80%89%E6%8B%A9)
 - [Hub75的引脚定义](https://github.com/breakstring/esp32-hub75-devkit/wiki/Hub75%E7%9A%84%E5%BC%95%E8%84%9A%E5%AE%9A%E4%B9%89)
 
-## 硬件生产相关
 
-~~本项目的原理图、BOM以及Gerber等均已经放出，您可以直接按照Gerber文件去打板制板。当然，器件的贴片是个大问题，从嘉立创那边制板倒是便宜，但是小批量贴片的话成本其实还是蛮高的。所以如果您懒得自己做板子的话，可以考虑从我的店铺里直接购买：
-
-
-
-| [淘宝店铺商品链接](https://item.taobao.com/item.htm?id=647379183809&et_token=a57549e3625bf0d7749fe84b2e36d7f0&et_ver=1.0)       | 微信小商店 |
-| ----------- | ----------- |
-| <img src="images/taobao.png" />      | <img src="images/WeChatShop.jpg" />       |~~
-店铺实在是没有时间打理荒废很久了。。。所以还是关闭吧。
